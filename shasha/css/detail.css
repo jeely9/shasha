@@ -1,0 +1,76 @@
+*{margin:0;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+body{font-size: 12px;font-family: "Œ¢»Ì—≈∫⁄","Arial";}
+img{border:none;}
+
+/*center*/
+.center{width:100%;height:100%;background:#f2f2f2;}
+.centerTop{width:1139px;height:680px;background:#fff;margin:0 auto;}
+.centerT{width:1139px;height:60px;background:#bf9b5f;}
+.centerTopL{width:502px;height:434px;background: url("../images/de1.jpg") no-repeat left top;margin-left:30px;padding-top:186px;}
+ .smallBox{width:300px;overflow:hidden;border:1px solid #ccc;cursor: move;position:absolute;top:400px;left:200px;height:330px;}
+ .smallBox img{width:300px;;height:300px;}
+ .tool{width:100px;height:100px;background-color:yellow;filter:alpha(opacity=20);opacity:0.2;position:absolute;display:none;}
+ .bigBox{width:500px;height:500px;overflow:hidden;position:absolute;left:600px;top:400px;border:1px solid #ccc;display:none;}
+ .bigBox img{width:1200px;position:absolute;overflow:hidden;height:1200px;}
+.centerB{width:502px;height:134px;margin-top:300px;}
+.centerB .scrrol{width:502px;height:86px;margin-top:20px;overflow:hidden;}
+.scrrol .btnL,.btnR{width:20px;background:#a3a3a3;line-height:86px;border:none;cursor: pointer;}
+#slider{width:280px;height:86px;overflow:hidden;float:left;}
+.scrrol .btnL{float:left;}
+/*.scrrol b  img{width:20px;height:80px;border:2px solid #f1f1f1;}*/
+#slider{float:left;}
+#slider img{float:left;border:1px solid #e1e1e1;margin-left:6px;}
+
+
+
+
+
+
+.centerTopR{width:464px;height:620px;margin-left:56px;}
+.centerTopR .dis{width:458px;height:83px;margin:30px 0px;line-height:30px;font-size:20px;color:#3e3e3e;font-weight:bolder;}
+.centerTopR .brand{font-size:18px;color:#3e3e3e;line-height:28px;}
+.centerTopR .name{font-size:18px;color:#3e3e3e;line-height:28px;}
+.centerTopR .count{margin:28px 0px;color:#3e3e3e;}
+.centerTopR .count a{height:22px;line-height:22px;}
+.centerTopR input{border:none;}
+.centerTopR .del,.add{background:#f2f2f1;width:22px;height:22px;}
+.centerTopR .number{width:30px;height:22px;}
+.centerTopR .price a{color:#888888;}
+.centerTopR .price span{color:#ec3e7d;font-size:40px;margin-left:4px;}
+.centerTopR .shop{width:222px;height:52px;background:#ec3e7d;color:#fff;font-size:16px;}
+.centerTopR .rate{width:206px;height:84px;line-height:84px;color:#888888;font-size:14px;}
+.centerTopR .collect{width:456px;height:72px;line-height:72px;color:#888888;font-size:14px;background:url("../images/coll1.jpg") no-repeat right center;}
+
+
+/* £”‡≤ø∑÷*/
+.detail{width:1139px;height:100%;margin:20px auto;}
+.detailL{margin-left:30px;width:255px;height:784px;}
+.detailR{width:812px;height:auto;margin-left:25px;}
+.detailRT{width:812px;height:320px;background:#fff;}
+.detailRT p{background:url("../images/deail3.jpg") no-repeat right center;height:75px;line-height:75px;}
+.detailRT p a{width:110px;height:75px;text-align:center;color:#3e3e3e;font-size:28px;}
+.detailRT p span{color:#ec3e7d;font-size:24px;width:67px;margin-left:16px;}
+.detailRT ul{width:366px;height:228px;margin-left:44px;color:#3e3e3e;font-size:14px;}
+.detailRT ul li{width:70px;height:42px;}
+.detailRT ul a{margin-left:72px;display:inline-block;width:210px;height:42px;}
+
+.detailRC{width:812px;height:494px;margin-top:20px;background:url("../images/detail4.jpg") no-repeat bottom center #fff;}
+.detailRC p{background:url("../images/deail3.jpg") no-repeat right center;height:75px;line-height:75px;}
+.detailRC p a{width:110px;height:75px;text-align:center;color:#3e3e3e;font-size:28px;}
+.detailRC p span{color:#ec3e7d;font-size:24px;width:67px;margin-left:16px;}
+
+.detailRS{width:816px;height:auto;margin-top:20px;/*background: url("../images/detail5.jpg") no-repeat bottom center;*/background:#fff;}
+.detailRS p{background:url("../images/deail3.jpg") no-repeat right center;height:75px;line-height:75px;}
+.detailRS p a{width:110px;height:75px;text-align:center;color:#3e3e3e;font-size:28px;}
+.detailRS p span{color:#ec3e7d;font-size:24px;width:67px;margin-left:12px;}
+.detailRS img{margin-left:200px;}
+
+.detailRU{width:816px;height:auto;margin-top:20px;background: #fff;}
+.detailRU p{background:url("../images/deail3.jpg") no-repeat right center;height:75px;line-height:75px;}
+.detailRU p a{width:110px;height:75px;text-align:center;color:#3e3e3e;font-size:28px;}
+.detailRU p span{color:#ec3e7d;font-size:22px;width:67px;margin-left:12px;}

@@ -1,0 +1,573 @@
+﻿{ 
+  "1000":{
+    "name":"热门功效",
+    "url":"http://www.sasa.com",
+    "children":{
+      "1100":{
+        "name":"热门功效",
+        "url":"",
+        "children":{
+          "1101":{
+            "name":"美白保湿",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "1102":{
+            "name":"美白提亮",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "1103":{
+            "name":"祛斑",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "1104":{
+            "name":"舒缓/抗敏感",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "1105":{
+            "name":"收毛孔",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "1106":{
+            "name":"提拉紧致",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "1107":{
+            "name":"抗皱",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "1108":{
+            "name":"去黑眼圈",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "1109":{
+            "name":"去干纹",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "1110":{
+            "name":"防晒",
+            "url":"",
+            "icon":"",
+            "children":{}
+          }
+        }
+      }
+    }
+  },
+  "2000":{
+    "name":"面部护肤",
+    "url":"http://www.sasa.com",
+    "children":{
+      "2100":{
+        "name":"基本护理",
+        "url":"",
+        "children":{
+          "2101":{
+            "name":"洁面",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2102":{
+            "name":"磨砂",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2103":{
+            "name":"卸妆",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2104":{
+            "name":"化妆水",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2105":{
+            "name":"精华",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2106":{
+            "name":"面霜",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2107":{
+            "name":"面膜",
+            "url":"",
+            "icon":"",
+            "children":{}
+          }
+        }
+      },
+      "2200":{
+        "name":"特别护理",
+        "url":"",
+        "children":{
+          "2101":{
+            "name":"颈部护理",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2102":{
+            "name":"眼部护理",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2103":{
+            "name":"暗疮护理",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2104":{
+            "name":"唇部护理",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2105":{
+            "name":"防晒护理",
+            "url":"",
+            "icon":"",
+            "children":{}
+          }
+        }
+      },
+      "2300":{
+        "name":"其他",
+        "url":"",
+        "children":{
+          "2101":{
+            "name":"高端美容仪器",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2102":{
+            "name":"美容工具",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2103":{
+            "name":"小样",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "2104":{
+            "name":"套装",
+            "url":"",
+            "icon":"",
+            "children":{}
+          }
+        }
+      }
+    }
+  },
+  "3000":{
+    "name":"彩妆",
+    "url":"http://www.sasa.com",
+    "children":{
+      "3100":{
+        "name":"面部彩妆",
+        "url":"",
+        "children":{
+          "3101":{
+            "name":"隔离霜",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "3102":{
+            "name":"粉底",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "3103":{
+            "name":"遮瑕",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "3104":{
+            "name":"BB霜",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "3105":{
+            "name":"CC霜",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "3106":{
+            "name":"胭脂",
+            "url":"",
+            "icon":"",
+            "children":{}
+          }
+        }
+      },
+      "3200":{
+        "name":"眼部彩妆",
+        "url":"",
+        "children":{
+          "3101":{
+            "name":"眉笔/眉粉",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "3102":{
+            "name":"眼影",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "3103":{
+            "name":"眼线",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "3104":{
+            "name":"眼睫毛",
+            "url":"",
+            "icon":"",
+            "children":{}
+          }
+        }
+      },
+      "3300":{
+        "name":"其他",
+        "url":"",
+        "children":{
+          "3101":{
+            "name":"美唇",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "3102":{
+            "name":"彩妆盒/套装",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "3103":{
+            "name":"化妆工具",
+            "url":"",
+            "icon":"",
+            "children":{}
+          },
+          "3104":{
+            "name":"美甲",
+            "url":"",
+            "icon":"",
+            "children":{}
+          }
+        }
+      }
+    }
+  },
+  "4000": {
+    "name": "香水",
+    "url": "http://www.sasa.com",
+    "children": {
+      "4100": {
+        "name": "香水",
+        "url": "",
+        "children": {
+          "4101": {
+            "name": "女士香水",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "4102": {
+            "name": "男士香水",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "4103": {
+            "name": "香水套装",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "4104": {
+            "name": "香水工具",
+            "url": "",
+            "icon": "",
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "5000": {
+    "name": "健康美肌",
+    "url": "http://www.sasa.com",
+    "children": {
+      "5100": {
+        "name": "健康美肌",
+        "url": "",
+        "children": {
+          "5101": {
+            "name": "美容补充品",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "5102": {
+            "name": "保健品",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "5103": {
+            "name": "非处方药品",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "5104": {
+            "name": "健康零食",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "5105": {
+            "name": "天然草本茶",
+            "url": "",
+            "icon": "",
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "6000": {
+    "name": "纤体美胸",
+    "url": "http://www.sasa.com",
+    "children": {
+      "6100": {
+        "name": "纤体美胸",
+        "url": "",
+        "children": {
+          "6101": {
+            "name": "纤体护理",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "6102": {
+            "name": "纤体食品",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "6103": {
+            "name": "纤体工具",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "6104": {
+            "name": "纤体套装",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "6105": {
+            "name": "美胸用品",
+            "url": "",
+            "icon": "",
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "7000": {
+    "name": "个人护理",
+    "url": "http://www.sasa.com",
+    "children": {
+      "7100": {
+        "name": "身体护理",
+        "url": "",
+        "children": {
+          "7101": {
+            "name": "沐浴/润肤",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "7102": {
+            "name": "洗发/护发",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "7103": {
+            "name": "头发造型",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "7104": {
+            "name": "手足部护理",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "7105": {
+            "name": "脱毛用品",
+            "url": "",
+            "icon": "",
+            "children": {}
+          }
+        }
+      },
+      "7200": {
+        "name": "其他",
+        "url": "",
+        "children": {
+          "7101": {
+            "name": "隐形眼镜",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "7102": {
+            "name": "口腔护理",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "7103": {
+            "name": "家居用品",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "7104": {
+            "name": "头饰/饰物",
+            "url": "",
+            "icon": "",
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "8000": {
+    "name": "男士专区",
+    "url": "http://www.sasa.com",
+    "children": {
+      "8100": {
+        "name": "男士专区",
+        "url": "",
+        "children": {
+          "8101": {
+            "name": "男士洁面",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "8102": {
+            "name": "男士护肤",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "8103": {
+            "name": "剃须护理",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "8104": {
+            "name": "男士头部护理",
+            "url": "",
+            "icon": "",
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "9000": {
+    "name": "孕婴护理",
+    "url": "http://www.sasa.com",
+    "children": {
+      "9100": {
+        "name": "孕婴护理",
+        "url": "",
+        "children": {
+          "9101": {
+            "name": "婴儿沐浴",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "9102": {
+            "name": "婴儿食品",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "9103": {
+            "name": "婴儿护肤",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "9104": {
+            "name": "孕妇护肤",
+            "url": "",
+            "icon": "",
+            "children": {}
+          },
+          "9105": {
+            "name": "其他孕婴工具",
+            "url": "",
+            "icon": "",
+            "children": {}
+          }
+        }
+      }
+    }
+  }
+
+}

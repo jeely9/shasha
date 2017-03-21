@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>面部护肤</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/face.css"/>
+    <script type="text/javascript" src="../javascript/Ajax.js"></script>
+    <script type="text/javascript" src="../javascript/jquery.js"></script>
+    <script type="text/javascript" src="../javascript/cookie.js"></script>
+    <script type="text/javascript" src="../javascript/face.js"></script>
+    <script>
+        function format(html,data){
+            // [] 中括号中的正则条件，可以随意匹配
+            return html.replace(/{{([\w]+)}}/g,function(name,key){
+                return data[key] || "";
+            });
+        }
+    </script>
+</head>
+<body>
+<!--top-->
+<div class="top">
+    <div class="topIn">
+        <div class="loginL left">
+            <span class="wel">欢迎光临莎莎网！</span>
+            <a href="login.html" class="login" id="dl">登录</a><span>或</span>
+            <a href="register.html" class="register">注册</a>
+        </div>
+        <div>
+            <ul class="member left">
+                <li class="one" id="mycoin">
+                    <a>我的账户</a>
+                    <div id="mycoinC">
+                        <p><a href="#">我的订单</a></p>
+                        <p><a href="#">我的积分</a></p>
+                        <p><a href="#">我的优惠</a></p>
+                        <p><a href="#">我的收藏</a></p>
+                        <p><a href="#">我的评价</a></p>
+                    </div>
+                </li>
+                <li class="two"><a>我的收藏</a></li>
+                <li class="three"><a>我的站内信</a></li>
+                <li><a>积分中心</a></li>
+                <li>Global Site</li>
+                <li id="blur">
+                    <a>关注我们</a>
+                    <div id="blurC">
+                        <p class="receive"><a href="#">加入收藏</a></p>
+                        <p class="weibo" id="weibo">
+                            <a href="#">新浪微博</a>
+                            <img src="../images/weiboer.png" alt="" class="wb" id="wb"/>
+                        </p>
+                        <p class="shasha" id="shasha">
+                            <a href="#">莎莎微信</a>
+                            <img src="../images/weixiner.png" alt="" class="wx" id="wx"/>
+                        </p>
+                        <p class="yk" id="yk">
+                            <a href="#">优酷视频</a>
+                            <img src="../images/yker.jpg" alt="" class="sp" id="sp"/>
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!--header-->
+<div class="header">
+    <div class="page">
+        <div class="logo left">
+            <img src="../images/logo.jpg"/>
+        </div>
+        <div class="search left">
+            <form>
+                <input type="text" class="sc" value="面膜" class="left"/>
+                <button type="submit" class="btn right">搜索</button>
+            </form>
+            <div class="hotkey">
+                <p><a href="#">防晒</a><span>|</span></p>
+                <p><a href="#">兰蔻</a><span>|</span></p>
+                <p><a href="#">雅诗兰黛</a><span>|</span></p>
+                <p><a href="#">兰芝</a><span>|</span></p>
+                <p><a href="#">眼霜</a><span>|</span></p>
+                <p><a href="#">保湿</a><span>|</span></p>
+                <p><a href="#">迪奥</a></p>
+            </div>
+        </div>
+        <div class="cart left">
+            <div class="car" id="cart">
+                <img src="../images/car.jpg"/>
+                <div class="cartB" id="cartB">
+                    <p>购物车中还没有商品</p>
+                    <p>快去挑选自己心爱的商品吧</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--title-->
+<div class="title">
+    <div class="titleIn">
+        <ul class="left">
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="face.html">面部护肤</a></li>
+            <li><a href="#">彩妆</a></li>
+            <li><a href="shop.html">限时特卖</a></li>
+            <li><a href="#">贵宾专享</a></li>
+            <li><a href="#">所有品牌</a></li>
+        </ul>
+        <div class="left">
+            <img src="../images/b.jpg"/>
+        </div>
+    </div>
+</div>
+<!--label-->
+<div class="label">
+    <div class="labelIn">
+        <b class="left"><a href="#">所有分类</a></b>
+        <div class="left">
+            <span><a href="#">新品上市</a></span>
+            <span><a href="#">本周促销</a></span>
+            <span><a href="#">韩国热卖</a></span>
+            <span><a href="#">面膜专区</a></span>
+            <span><a href="#">清货特卖</a></span>
+        </div>
+    </div>
+</div>
+<!--main-->
+<div class="free">
+    <div class="center clear">
+        <div class="mainL left">
+            <h3><a href="#">产品分类</a></h3>
+            <h1><a href="#">面部护肤</a></h1>
+            <p><a href="#"> > 洁面 </a></p>
+            <p><a href="#"> > 磨砂 </a></p>
+            <p><a href="#"> > 卸妆 </a></p>
+            <p><a href="#"> > 化妆水 </a></p>
+            <p><a href="#"> > 精华 </a></p>
+            <p><a href="#"> > 面霜 </a></p>
+            <p><a href="detail.html"> > 面膜 </a></p>
+            <p><a href="#"> > 颈部护理 </a></p>
+            <p><a href="#"> > 眼部护理 </a></p>
+            <p><a href="#"> > 暗疮护理 </a></p>
+            <p><a href="#"> > 唇部护理 </a></p>
+            <p><a href="#"> > 防晒护理 </a></p>
+            <p><a href="#"> > 高端美容仪器 </a></p>
+            <p><a href="#"> > 美容工具 </a></p>
+            <p><a href="#"> > 套装 </a></p>
+            <p><a href="#"> > 小样 </a></p>
+        </div>
+        <div class="wallfall right" id="wall">
+
+        </div>
+        <div id="button" class="button"></div>
+    </div>
+
+</div>
+<!--bottom-->
+<div class="bottom clear">
+    <div class="bottomIn clear">
+        <div class="lj left">
+            <ul>
+                <a>新手上路</a>
+                <li>购物流程</li>
+                <li>优惠券说明</li>
+                <li>常见问题</li>
+                <li>联络我们</li>
+            </ul>
+            <ul>
+                <a>付款方式</a>
+                <li>在线支付</li>
+                <li>积分支付</li>
+            </ul>
+            <ul>
+                <a>配送方式</a>
+                <li>配送说明</li>
+                <li>追踪订单</li>
+            </ul>
+            <ul>
+                <a>售后服务</a>
+                <li>正品保证</li>
+                <li>价格承诺</li>
+                <li>退款程序</li>
+                <li>更改订单</li>
+            </ul>
+            <ul>
+                <a>莎莎会员</a>
+                <li>积分奖赏</li>
+                <li>会员计划</li>
+            </ul>
+        </div>
+        <div class="ma right">
+            <img src="../images/weiboer.png" alt=""/>
+            <img src="../images/weixiner.png" alt=""/>
+        </div>
+    </div>
+    <div class="bottomC">
+        <ul>
+            <li>关于莎莎</li>
+            <li>使用条款</li>
+            <li>隐私政策</li>
+            <li>招商合作</li>
+            <li>帮助中心</li>
+            <li>港澳店铺推广</li>
+            <li>人才招聘</li>
+            <li>联络我们</li>
+            <li>网站地图</li>
+            <li>其他送货地区</li>
+        </ul>
+    </div>
+    <div class="copy">
+        <p>&copy; Copyright 2000-2016 Sa Sa dot Com Limited <span>莎莎国际控股有限公司成员</span></p>
+    </div>
+</div>
+</body>
+</html>
